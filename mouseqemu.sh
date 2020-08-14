@@ -1,9 +1,14 @@
 #!/bin/bash
+# Author robotcanadia@gmail.com
+# License MIT 2.0
+
+# Script Run via keyboard shortcut, that will send mouse to and from libvirt guest.
+# Setup a small macro keypad
 
 # exit when any command fails
 set -e
 
-# For attach Best Attempt to find the main Keyboard if env not set.
+# For attach Best Attempt to find the main Mouse if env not set.
 if [ "$1" = "attach" ]; then
   command="attach-device"
   if ! [[ -v SOFT_KVM_MOUSE ]]; then
