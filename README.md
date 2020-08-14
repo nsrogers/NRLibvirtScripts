@@ -1,5 +1,5 @@
 # NRLibvirtScripts
-Set of scripts for graphics and usb passthrough device for Wndows Guest.
+Set of scripts for graphics and usb passthrough device for Windows Guest.
 
 Main pain points the scripts address:
 I have two of the same exact graphics card and most ways to direct one device to X11 and one to vfio/libvirt does not apply. Thus I use the vfio* script on amdgpu is loaded to instead hardcode one pci bdf address to vfio and one to amdgpu. This does also require specifing device in Xorg.conf for it to use.
