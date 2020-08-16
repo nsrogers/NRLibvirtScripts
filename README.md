@@ -16,6 +16,7 @@ Other features that are used but have no scripts because they just worked:
 Other Resources:
 * Found this doc on a way to move devices in and out of windows without an extra macro keypad by telling libvirt to detach via a serial connection. Very cool. https://rokups.github.io/#!pages/kvm-hid.md
 * Needed this to run looking_glass_host as admin. https://superuser.com/questions/929225/how-to-run-a-program-as-an-administrator-at-startup-on-windows-10
+* vfio scripts based of nvidia version here: https://gist.github.com/comjf/c6c96703d77e3ff5cb3dbc309d86d5cf
 
 TODO and minor nits:
 * mouse side buttons do not work in spice mapping, there is support but need to check mapping.
