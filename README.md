@@ -24,7 +24,7 @@ TODO and minor nits:
 * setup my iscsi drive
 * copy paste between desktops via spice (BOTH WAYS?)
 * hold backspace and other keys does not translate and is one press via spice
-
+* look at Evdev passthrough vs spice (may need looking glass support?)
 
 Hardware:
 * Tiachi x470 pro ac with 2700X,
