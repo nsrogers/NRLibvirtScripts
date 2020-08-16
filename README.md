@@ -20,6 +20,8 @@ spice display as keyboard and mouse passthough when not gaming, and via the soft
 Other Resources:
 Found this doc on a way to move devices in and out of windows without an extra macro keypad by telling libvirt to detach via a serial connection. Very cool.
 https://rokups.github.io/#!pages/kvm-hid.md
+Needed this to run looking_glass_host as admin.
+https://superuser.com/questions/929225/how-to-run-a-program-as-an-administrator-at-startup-on-windows-10
 
 
 TODO and minor nits:
